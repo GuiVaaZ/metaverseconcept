@@ -1,8 +1,26 @@
-h1 {
-    background-color: aqua;
-    color: azure;
-    
+.header {
+    background: linear-gradient(100deg, rgba(2, 21, 61, 0.20) 0%, rgba(15, 156, 181, 0.20) 60%), #02153D;
+    padding: 25px;
+    font-size: 20px;
+    box-shadow: 0px 9px 5.3px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 3px 17px 17px;
+    text-align: end;
+
 }
-p {
- 
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    background-color: white;
+    border-radius: 18px;
+}
+a:hover {
+    background-color: #02153D;
+    color: white; 
+    transition: background-color 0.5s;
+}
+.imagem{
+    height:1024px;
+    width: 1440px;
 }
