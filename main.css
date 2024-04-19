@@ -1,5 +1,8 @@
+body{
+    background-image: url(pexels-cottonbro-studio-8721318.jpg);
+}
 .header {
-    background: linear-gradient(100deg, rgba(2, 21, 61, 0.20) 0%, rgba(15, 156, 181, 0.20) 60%), #02153D;
+    background: linear-gradient(100deg, rgba(2, 21, 61, 0.02) 0%, rgba(15, 156, 181, 0.20) 60%), #02153D;
     padding: 25px;
     font-size: 20px;
     box-shadow: 0px 9px 5.3px 0px rgba(0, 0, 0, 0.25);
@@ -7,7 +10,30 @@
     text-align: end;
 
 }
-
+.imagem {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    flex-shrink: 0;
+}
+@font-face {
+    font-family: DS-Digital;
+    src: url(DigitalNumbers-Regular.ttf);
+}
+h1{
+    font-family: Ds-Digital;
+    color: #FFF;
+    text-shadow: 14px 15px 10.2px rgba(255, 255, 255, 0.25);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 486px;
+    height: 91px;
+    flex-shrink: 0;
+}
 a {
     text-decoration: none;
     color: black;
@@ -15,12 +41,10 @@ a {
     background-color: white;
     border-radius: 18px;
 }
+
 a:hover {
     background-color: #02153D;
-    color: white; 
+    color: white;
     transition: background-color 0.5s;
 }
-.imagem{
-    height:1024px;
-    width: 1440px;
-}
+
